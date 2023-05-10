@@ -3,7 +3,7 @@ import nacl.hash
 
 from util import *
 
-MAX_BITS = 32 + 20
+MAX_BITS = 64 + 12
 MINN = -(1 << MAX_BITS)
 MAXN = -MINN - 1
 SCALE_BIT = 8
